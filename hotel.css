@@ -1,0 +1,560 @@
+body{
+    overflow-x: hidden;
+}
+.navbar {
+    padding: 20px;
+}
+
+.navbar-default .navbar-brand{
+    font-weight: 700;
+    font-family: 'Kenia', cursive;
+    font-size: 28px;
+    color: white;
+
+}
+
+#indexImg {
+    width: 100%;
+    height: 100%;
+    background: url(image/Darjeeling-panoramic.jpg) no-repeat left;
+}
+.navbar-default{
+    background-color: rgba(1, 1, 26, 0);
+    border-width: 0px;
+    border-bottom: 2px solid white;
+}
+#active:hover{
+    border-bottom: 1px solid white;
+}
+.indexCoverPara{
+    font-family: 'Martian Mono', monospace;
+    margin-top: 150px;
+    color:rgba(255, 255, 255, 0.83);
+}
+.indexCoverPara h2{
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.indexFont{font-family: 'Martian Mono', monospace;}
+#comment{
+    padding-top: 25px;
+}
+#comment h5{
+    color: darkgoldenrod;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#comment p{
+    font-size: 25px
+}
+.carousel-inner{
+    height: 700px;
+}
+#carouselContainer{margin: 40px 0px 20px;}
+#ess{padding-left: 20px;}
+.fa-solid
+{
+    position: relative;
+    top:40px;
+}
+
+#service
+{
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+#service h5
+{
+    color:darkgoldenrod;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+#service #service_heading{
+    font-size: 35px;
+    font-style: bold;
+    font-family: 'Martian Mono', monospace;
+}
+#editRoom{
+    position: relative;
+    top: 20px;
+}
+.roomContent{
+    margin: 20px 0px 0px 20px;
+}
+#prestige{margin-top:40px;}
+.roomInfo{
+    color:#eba51f;
+    margin: 15px 0px 30px;
+}
+.roomBorder:hover{
+    border: solid 3px #eba51f;
+}
+#hotelRoom{
+    padding:80px 0px 80px;
+    background-color: rgba(219, 186, 215, 0.21);
+}
+#roomTag{
+    color:darkgoldenrod;
+    font-weight:700;
+    font-size:15px;    
+}
+#roomHeading{
+    font-size: 30px;
+    font-family: 'Martian Mono', monospace;
+    padding-left: 20px;
+}
+.roomBorder{margin-top:40px}
+.aboutAct{
+    padding: 30px 10px 20px 20px;
+}
+#eventHeading{margin-bottom:90px;}
+#eventHeading h5{
+    color: darkgoldenrod;
+    font-weight:700;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.aboutAct a,.bookRoomInfo a{
+    margin: 10px 8px 8px;
+    padding: 0px 6px;
+    border-bottom: solid 2px darkgoldenrod;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.77);
+} 
+#hotelEvent{
+    padding: 70px 0px 100px;
+}
+#hotelBooking{
+    padding: 50px 0px 80px;
+    background: url("image/bookingcover2.jpg") left no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    background-attachment: fixed;
+}
+#hotelBooking a{
+    margin-top: 50px;
+}
+#hotelBooking h5{
+    color: darkgoldenrod;
+    font-size: 18px;
+    font-weight: 700;
+}
+#footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    color:whitesmoke;
+    padding: 50px;
+}
+.footerInfo h3{
+    padding-bottom: 25px;
+}
+#roomHeading{
+    padding: 20px 0px;
+    color: rgba(15, 13, 13, 0.81);
+}
+#roomCover{
+    background: url("image/roomCover1.jpg") left no-repeat;
+    background-size: cover;
+    padding-bottom: 70px;
+}
+#roomCover h1{font-size: 60px;}
+.roomForm label,.roomGuest{color:white;}
+.roomGuest{
+    font-weight:700;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+.bookBtn{
+    margin: 24px 10px;
+    background-image: radial-gradient(#dea710,#e26d09);
+    color: white;
+}
+.hotelBtn,.roomDate,.hotelBtn:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+.hotelBtn{width:100%;}
+.bookBtn:hover{
+    background-image: radial-gradient(#e26d09,#dea710);
+    color:white;
+}
+.hotelTime{
+    padding: 10px 0px;
+    margin-top: 30px;
+}
+#hotelTime{border-right: solid 2px #dc8409;}
+.hotelTime span{
+    color:#dc8409;
+    margin-left: 15px;
+    font-weight: 700;
+}
+#bookHeading{
+    color: white;
+    padding: 200px 0px;
+}
+.priceTag{
+    position: absolute;
+    left: 90px;
+    top: 15px;
+}
+.bookInfo h3{font-weight: 700}
+.bookRoomTag{
+    color: darkgoldenrod;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+.bookInfo{padding:10px 60px;}
+.bookIcon{
+    position:relative;
+    top:1px;
+    padding: 0px 5px 0px 10px;
+}
+.bookRoomInfo{margin: 20px 0px}
+#bookRoom{
+    padding: 70px 0px;
+}
+.bookRoomInfo a{
+    margin: 10px 0px 30px;
+}
+#bookService{
+    padding: 70px 35px;
+    background-color: rgba(0, 0, 0, 0.88);
+    color: white;
+}
+#room3{
+    position: relative;
+    top: 25px;
+}
+#bookService h4,.bookService span{color:darkgoldenrod}
+.bookService{padding: 35px 0px}
+.bookService span{font-size: 20px}
+#bookService a{
+    border-bottom: solid 2px darkgoldenrod;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 4px 3px;
+    
+}
+#aboutService{padding: 20px 0px 30px}
+#bookCmmt{
+    padding: 200px 0px;
+    background: url("image/cmmtcover3.jpg") left no-repeat;
+    background-size: cover;
+}
+.cmmtIcon{
+    position: relative;
+    top: 1px;
+}
+#bookCmmt p{
+    color: white;
+    font-size: 30px;
+}
+#bookCmmt #guestCmmt{
+    font-size: 20px;
+    font-weight: 700;
+}
+#bookCaption{
+    padding: 80px 0px 30px;
+}
+#bookCaption h4{
+    color: darkgoldenrod;
+    font-weight:700;
+    margin-bottom: 30px;
+}
+#bookCaption h1{margin-bottom: 30px}
+#doubleCover{
+    width: 100%;
+    height: 600px;
+    background: url("image/doubleRoom.jpg") left no-repeat;
+    background-size: cover;
+}
+#doubleStyle2{font-size: 27;}
+#doubleStyle3{
+    font-size:16px;
+    line-height: 2.5;
+}
+#doubleStyle3 #doubleStyle{
+    font-size:13px;
+    font-weight: 600;
+}
+.doubleBook,.doubleGuest{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: solid 2px darkgoldenrod;
+}
+.doubleBtn{
+    width: 100%;
+    padding: 8px;
+    border: solid 0px black;
+    background-color: white;
+}
+.dropdown-menu{
+    width: 100%;
+    padding: 18px 20px 0;
+    background-color: #e6cb9e;
+}
+.doubleInput,.doubleInput:focus{
+    width: 280px;
+    font-size: 20px;
+    border: solid 2px #888787;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+label{font-size: 20px;}
+#doubleBookBtn{
+    width: 100%;
+    font-size: 18px;
+    padding: 4px;
+    background-color: black;
+    color: darkgoldenrod;
+    margin-top: 20px;
+    line-height: 2;  
+}
+.doubleCal p,.doubleCal Input{
+    position: relative;
+    top: 11px;
+}
+.doubleCal p{font-size: 16px}
+.doubleIcon{
+    position: relative;
+    top: 1px;
+    margin: 0px 5px 0px 15px;
+}
+#doublePara{
+    color: darkgoldenrod;
+    font-size: 15px;
+    font-weight: 700;
+}
+.doubleAbout p{
+    margin : 30px 0px;
+}
+#doubleBook{
+    margin: 40px 100px;
+    padding: 20px 25px;
+    border: solid 1px #807e7e;
+    box-shadow: 0px 0px 10px 10px #c1bebe
+    
+}
+.doubleAbout p{font-size: 16}
+#doubleIcons{margin-top: 20px}
+#doubleAmen{
+    margin: 70px 5px;
+}
+#doubleAmen h3{margin-bottom: 30px}
+.doubleAmen{
+    background-color: #fcefda;
+}
+#doubleWash{height: 70px}
+.amenIcon{
+    position: relative;
+    top: 35px;
+}
+#doubleWash p{padding-top: 13}
+#roomAmen{
+    margin: 50px 20px;
+}
+.ramenIcon i{
+    position: relative;
+    top: 10;
+}
+.ramenIcon{
+    padding: 30px 20px;
+}
+#doubleInc ul li{
+    color: darkgoldenrod;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+#doubleInc ul li span{
+    color: black;
+}
+#deluxCover{
+    background: url("image/deluxRoom.jpg") left no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+#signCover{
+    width: 100%;
+    height: 600px;
+    background: url("image/signatureRoom.jpg") left no-repeat;
+    background-size: cover;
+}
+#preCover{
+    width: 100%;
+    height: 600px;
+    background: url("image/prestigeRoom.jpg") left no-repeat;
+    background-size: cover;
+}
+#doubleInc h3{margin-bottom: 25px;}
+.serviceHead{
+    padding: 120px 0px 250px;
+    color: white;
+}
+.serviceHead h1{font-size: 60px;}
+.serviceHead p{font-size: 18px;}
+#serviceCover{
+    background: url("image/serviceCover.jpg") left no-repeat;
+    background-size: cover;
+}
+#serviceAmen{
+    margin: 70px 0px 100px;
+    margin-right: 55px;
+}
+#serviceHead{margin: 30px 0px;}
+#serviceHead h5{
+    color: darkgoldenrod;
+    font-weight: 700;
+}
+#serviceHead p{font-size: 40}
+.serviceAmen{
+    margin-bottom: 40px;
+    background-color: rgba(242, 181, 29, 0.2);
+}
+#serviceStay{padding: 40px 0px 70px;}
+#serviceStay h5{
+    color: darkgoldenrod;
+    font-weight: 700;
+}
+#serviceStay{
+    color: white;
+    background-color: black;
+}
+#serviceStay h3{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+#serviceBtn{
+    margin-top: 30px;
+    border: solid 2px #eba51f;
+    background-color: black;
+    color: WHITE;
+    padding: 10px;
+    font-size: 18px
+}
+#serviceBtn:hover{
+    background-color: #eba51f;
+    color: black;
+}
+#serviceDisc{
+    padding: 0px 30px 80px 70px;
+}
+#serviceDiscHead h5{
+    font-weight: 700;
+    color: darkgoldenrod;
+}
+#serviceDiscHead h2{margin-bottom: 30px}
+#serviceDiscHead .col-xs-10{
+    margin-left: -40px;
+    margin-bottom: 30px;
+}
+.discIcon{
+    position: relative;
+    top: 35px;
+}
+#serviceDiscHead p{font-size: 18px}
+.serviceDisc{
+    margin-top: 20px;
+}
+.serviceDisc button{
+    width: 100%;
+    font-size: 22px;
+    padding: 10;
+    background-color: rgba(242, 181, 29, 0.2);
+    border: solid 2px #e0dada;
+}
+.serviceDisc  .collapse{
+    background-color: rgba(242, 181, 29, 0.2);
+    padding: 10px;
+    font-size: 18px;
+}
+.serviceDisc button:hover{
+    color: darkgoldenrod;
+    border: solid 2px gray;
+}
+#aboutCover{
+    width: 100%;
+    height: 100%;
+    background: url("image/bookingcover2.jpg") left no-repeat;
+    background-size: cover;
+}
+#aboutCovHead{
+    padding: 190px 0px;
+    color: white;
+}
+#aboutCovHead h1{font-size: 60px}
+#aboutCovHead p{font-size: 20}
+#comment #aboutPara{font-size: 17px;margin: 20px 0px 40px;}
+#aboutExp{padding: 50px 0px;}
+#aboutExpInfo h5,#aboutStay h5{
+    color: darkgoldenrod;
+    font-weight: 700;
+}
+#aboutExpInfo p{margin-bottom: 20px}
+#aboutExpInfo button,#aboutStay button{
+    border: solid 2px #eba51f;
+    margin-bottom: 40px;
+    background-color: white;
+}
+#aboutExpInfo button:hover,#aboutStay button:hover{
+    background-color: #eba51f;
+    color: white;
+}
+.aboutImg{
+    position: relative;
+    top: 10px;
+    right: 30px;
+}
+#aboutStay p{font-size: 35;color:white}
+#aboutStay .AboutRoom{
+    font-size: 16;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+#aboutStay .AboutNo{
+    font-size: 45px;
+    margin-top: 30px;
+}
+#aboutStay{
+    width: 100%;
+    height: 100%;
+    background: url("image/about.jpg") left no-repeat;
+    background-size: cover;
+    padding: 150px 0px;
+}
+.indexBtn{
+    background-color: rgba(5, 4, 4, 0.2);
+    width: 120px;
+    padding: 5px;
+    border: solid 2px white;
+    color:white;
+    font-size: 16px;
+}
+
+.indexBtn:hover{
+    color: black;
+    background-color: white;
+}
+#boxw{
+    background-color: red;
+    width: 50px;
+    height: 60px;
+    margin: 100px;
+}
+.doubleForm .roomDate{
+    color: black;
+}
+#indexAcco{
+    padding: 0px 20px;
+}
+#indexAcco a{
+    position: relative;
+    top: 18px;
+    right: 20px;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: rgba(0, 0, 0, 0.31);
+    border: solid 1px white;
+}
